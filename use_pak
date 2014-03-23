@@ -1,0 +1,5 @@
+#!/bin/sh
+for pak in *.pak
+do
+    cp "$pak" ~/simutrans/addons/pak.private/
+done
