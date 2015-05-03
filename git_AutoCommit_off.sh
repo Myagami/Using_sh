@@ -13,7 +13,6 @@ while inotifywait -e modify,create,delete -r ./ ; do
     #git gc
     #to github
     #git push github Devel ;
-    git push github $BRANCH ;
-
+    #git push github $BRANCH ;
 done
 
