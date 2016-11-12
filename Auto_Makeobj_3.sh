@@ -9,7 +9,7 @@ inotifywait -m -e modify,create,delete --format %w%f $PNG $DAT|
 while read files;do
     makeobj_54 pak $PAK $DAT ;
     #cp $PAK ~/simutrans/addons/pak.dev
-    "cp *.pak ~/simutrans/addons/pak.nippon.test/"
+    `cp *.pak ~/simutrans/addons/pak.nippon.tests`
     echo "--------------------------------"
     date +"%y/%m/%d %T";
     echo "--------------------------------"

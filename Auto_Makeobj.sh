@@ -9,9 +9,9 @@ while read files;do
     makeobj_54 pak $PAK $DAT ;
     #cp $PAK ~/simutrans/addons/pak.dev
     if [${DAT} = "./"] ;then
-	cp `*.pak ~/simutrans/addons/pak.nippon.test`
+	cp `*.pak ~/simutrans/addons/pak.nippon.tests`
     else
-	cp $PAK ~/simutrans/addons/pak.nippon.test
+	cp $PAK ~/simutrans/addons/pak.nippon.tests
     fi
     echo "--------------------------------"
     date +"%y/%m/%d %T";
