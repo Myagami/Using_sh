@@ -5,5 +5,5 @@ Out=$2
 nkf -w $In >ja.tab_
 cat ~/Dropbox/Simutrans/Doc/ja.head.txt ja.tab_ > $Out
 #more $Out
-cp $Out ~/simutrans/addons/pak.nippon.TER-RSR3/text/
+cp $Out ~/simutrans/addons/pak.nippon.TER-RSR3c/text/
 rm -rf ja.tab_

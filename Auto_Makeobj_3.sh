@@ -4,7 +4,7 @@ PAK='./'
 DAT=$1
 PNG=$2
 ## png / datをモニターする
-inotifywait -m -e modify,create,delete --format %w%f $PNG $DAT|
+inotifywait -m -e close_write --format %w%f $PNG $DAT|
 #inotifywait -m -e modify,create,delete --format %w%f $DAT|
 while read files;do
     makeobj_54 pak $PAK $DAT ;
