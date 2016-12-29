@@ -1,0 +1,6 @@
+#!/bin/sh
+
+FN=$1
+
+nkf -w $FN | less
+
